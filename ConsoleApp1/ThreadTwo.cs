@@ -90,17 +90,17 @@ namespace ConsoleApp1
     internal class ThreadTwo
     {
         static MathClass math = new MathClass();
-        public static void Main()
-        {
-            Thread thread = new Thread(math.FunctionIncrement);
-            thread.Name = "childForegroundThread";
-            thread.Start();
+        //public static void Main()
+        //{
+        //    Thread thread = new Thread(math.FunctionIncrement);
+        //    thread.Name = "childForegroundThread";
+        //    thread.Start();
 
-            math.FunctionIncrement();
+        //    math.FunctionIncrement();
 
-            Console.WriteLine("Main thread exited.");
-            Console.ReadLine();
-        }  
+        //    Console.WriteLine("Main thread exited.");
+        //    Console.ReadLine();
+        //}  
     }
 
     internal class MathClass
