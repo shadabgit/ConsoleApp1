@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 { 
-    internal class ThreadTwo
+    internal class TPLClass
     {
       public static void Main()
       {}
